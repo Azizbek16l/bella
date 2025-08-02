@@ -139,3 +139,26 @@ footer ul a {
   color: #5C5C5C;
 }
 
+section {
+  position: relative;  
+}
+section .container {
+  text-align: center;  
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+
+  img {
+    transform: translateY(-180px);
+    z-index: 10;
+    position: relative;
+    
+  }
+}
+
+#line {
+  border: 2px solid #E4E4E4;
+  width: 884px;
+  display: block;
+  margin:  10px auto  28px auto;
+}
