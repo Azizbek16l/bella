@@ -111,3 +111,31 @@ main {
     left: 0;
     z-index: 1;
 }
+
+
+
+
+footer .container {
+  padding: 45px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+  margin: 0 auto;
+  ul {
+    gap: 24px;
+    list-style-type: none;
+    display: flex;
+  }
+}
+footer ul a {
+ color: #FA4A0C;
+ font-size: 40px;
+}
+
+#copyright {
+  font-size: 15px;
+  font-weight: 700;
+  color: #5C5C5C;
+}
+
